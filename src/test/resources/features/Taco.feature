@@ -1,6 +1,6 @@
 Feature:As a user,I should be able to select Hydro Air Fan Control in air fan under product module
 
-  @wip
+  @taco
   Scenario: Verify Hydro Air Fan Control in air fan under product module
     Given user go to the Taco homepage
     And  user use a mouse to hover over on product module
