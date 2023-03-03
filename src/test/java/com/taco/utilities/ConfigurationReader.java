@@ -1,4 +1,4 @@
-package com.spartan.utilities;
+package com.taco.utilities;
 
 import java.io.FileInputStream;
 import java.util.Properties;
