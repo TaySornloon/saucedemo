@@ -2,6 +2,7 @@ package com.taco.step_definitions;
 
 
 import com.taco.pages.TacoPage;
+import com.taco.utilities.ConfigReader;
 import com.taco.utilities.Driver;
 import io.cucumber.java.en.*;
 import io.cucumber.java.en.Then;
@@ -16,8 +17,8 @@ public class Taco_step_defs {
     Actions actions = new Actions(Driver.getDriver());
     @Given("user go to the Taco homepage")
     public void user_go_to_the_taco_homepage() {
-        //Driver.getDriver().get(ConfigurationReader.getProperty("browser"));
-        Driver.getDriver().get("https://www.tacocomfort.com/");
+        Driver.getDriver().get(ConfigReader.getProperty("tacoUrl"));
+
     }
     @When("user use a mouse to hover over on product module")
     public void user_use_a_mouse_to_hangover_on_product_module() {
