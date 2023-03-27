@@ -1,4 +1,4 @@
-package com.taco.runners;
+package com.hilton.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -14,9 +14,9 @@ import org.junit.runner.RunWith;
                         "me.jvt.cucumber.report.PrettyReports:target/cucumber"
                 },
         features = "src/test/resources/features",
-        glue = "com/taco/step_definitions",
+        glue = "com/hilton/step_definitions",
         dryRun = false,
-        tags = "@taco"
+        tags = "@hilton"
 )
 public class CukesRunner {
 

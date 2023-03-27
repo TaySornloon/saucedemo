@@ -1,4 +1,4 @@
-package com.taco.utilities;
+package com.hilton.utilities;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -11,7 +11,7 @@ public class ConfigReader {
 
         try {
 
-            FileInputStream file = new FileInputStream("config.properties");
+            FileInputStream file = new FileInputStream("configuration.properties");
 
 
 
