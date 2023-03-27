@@ -26,10 +26,5 @@ public class HiltonStepDefs {
     @Then("Verify hotel facilities listed below")
     public void verify_hotel_listed_below( List<String> expectedListOfFacilities) {
         Assert.assertEquals(expectedListOfFacilities,hiltonPage.getFacilitiesText());
-
-
-
     }
-
-
 }
