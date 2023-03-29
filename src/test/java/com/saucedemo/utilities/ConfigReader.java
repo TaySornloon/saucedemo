@@ -1,4 +1,4 @@
-package com.hilton.utilities;
+package com.saucedemo.utilities;
 
 import java.io.FileInputStream;
 import java.io.IOException;

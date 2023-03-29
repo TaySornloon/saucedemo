@@ -1,4 +1,4 @@
-package com.hilton.runners;
+package com.saucedemo.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -14,9 +14,9 @@ import org.junit.runner.RunWith;
                         "me.jvt.cucumber.report.PrettyReports:target/cucumber"
                 },
         features = "src/test/resources/features",
-        glue = "com/hilton/step_definitions",
+        glue = "com/saucedemo/step_definitions",
         dryRun = false,
-        tags = "@hilton"
+        tags = "@wip"
 )
 public class CukesRunner {
 
